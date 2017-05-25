@@ -1,0 +1,39 @@
+// variables
+
+// global and resets
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  padding: 0px 15px;
+  color: #333333;
+  font-family: 'Roboto Mono', monospace;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+.intro {
+  padding: 50px 0px;
+}
+
+section {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+}

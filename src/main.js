@@ -17,14 +17,4 @@ var image4 = require("./media/paper-ships.jpg");
       img.src = image.src;
     }, Math.floor(Math.random() * (1500 - 500 + 1) + 500));
   });
-
-  function template(preSrc, src) {
-    return `
-      <section>
-        <img src='${preSrc}' />
-        <img src='${src}' />
-      </section>
-    `;
-  }
-
 })();
